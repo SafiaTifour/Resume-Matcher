@@ -6,7 +6,7 @@
 ### **1. Clone the Repository**
 ```bash
 git clone <repository_url>
-cd resume-matcher
+cd Resume-Matcher
 ```
 
 ### **2. Create a Virtual Environment**
@@ -26,6 +26,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 The API will be available at `http://127.0.0.1:8000`.
+Check `http://127.0.0.1:8000/docs`.
 
 ---
 
